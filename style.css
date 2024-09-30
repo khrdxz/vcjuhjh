@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: black;
+    width: 100vw;
+    transition: ease-in-out .2s;
+}
+a{
+    display: flex;
+    margin: auto;  
+    transition: ease-in-out .2s;
+}
+a:hover{
+    transform: scale(1.1);
+}
+#macaco{
+    display: flex;
+    margin-left: 80px;
+    font-size: 28px;
+    color: white;
+    background-color: black;
+    transition: ease-in-out .2s
+}
+#macaco:hover{
+    transform: scale(1.1);
+    color: #f48c06;
+}
+#container{
+    display: flex;
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    gap: 50px;
+    margin-top: 100px;
+    background-color: #9f73ec;
+    flex-direction: column;
+    padding-bottom: 40px;
+    text-align: center;
+}
+#sla{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    
+}
+#cursos{
+    background-color: black;
+    display: flex;
+    margin-left:  550px;
+    flex-direction: inline;
+    justify-content: space-evenly;
+    width: 400px;
+    gap: 10px;
+    text-align: center;
+}
+#sla:hover{
+    font-size: 20px;
+    color: #fea50c;
+}
+img{
+    height: 35px;
+    width: 40px;
+    background-color: black;
+    margin-left: 50px;
+}
+#img{
+    background-color: black;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+#texto{
+    background-color: #9f73ec;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 300px;
+}
+#jogos{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#gorila{
+    text-decoration: none;
+    text-align: center;
+    background-color:#fea50c ;
+    width: 80px;
+    height: 30px;
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+    transition: ease-in-out .2s;
+}
+#gorila:hover{
+    transform: scale(1.1);
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+#principal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+i{
+    color: black;
+}
